@@ -1,0 +1,11 @@
+#!/bin/bash
+while true; do
+    current_task=$(osascript -e 'tell application "System Events" to get name of application processes whose frontmost is true and visible is true')
+    osascript -e "beep 3"
+    echo Slacktivating
+    osascript -e "tell application \"Slack\" to activate"
+    sleep 5
+    osascript -e "tell application \"$current_task\" to activate"
+    echo  rekcals sleeep time, back to "$current_task".
+    sleep 600
+done
