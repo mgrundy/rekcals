@@ -1,5 +1,5 @@
 # rekcals
-## Enterprise Slack is asshole-ware.
+*_Enterprise Slack is asshole-ware_*
 
 FFS, I have slack up on my other monitor. I'm available. I'm also working.
 What fucking asshole decided that if I'm not interacting with slack I
